@@ -27,9 +27,9 @@ def grade(grade)
 end
 end
 
-def sort(grade)
-  if roster.keys.include?(grade)
-   @roster[grade][student_name].sort!
+def sort
+@roster.each do |key, value|
+  value.sort!
  end
 end
   
