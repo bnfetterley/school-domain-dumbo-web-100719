@@ -29,6 +29,7 @@ end
 
 def sort
    @roster[grade][student_name].sort!
+   return  @roster[grade][student_name]
 end
   
 
