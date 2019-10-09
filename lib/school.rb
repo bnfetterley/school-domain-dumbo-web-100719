@@ -27,7 +27,7 @@ def grade(grade)
 end
 end
 
-def sort
+def sort(grade, student_name)
    @roster[grade][student_name].sort!
    return  @roster[grade][student_name]
 end
