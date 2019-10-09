@@ -30,6 +30,7 @@ end
 def sort(grade, student_name)
   if roster.keys.include?(grade)
    @roster[grade][student_name].sort!
+ end
 end
   
 
