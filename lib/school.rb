@@ -28,7 +28,7 @@ end
 end
 
 def sort
-   @roster[grade].sort
+   @roster[grade].sort { |a, b| a <=> b }
 end
   
 
